@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav {
+    height: 150px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+#nav-prt2 {
+    display: flex;
+    /* background-color: blue; */
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#nav h5 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#nav a {
+    color: #fff;
+}
+
+#nav img {
+    height: 105px;
+}
+
+#line {
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+
+#content {
+    height: calc(100% - 150px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    position: relative;
+
+}
+
+#left {
+    width: 37%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 100px 80px;
+}
+
+#right {
+    width: 37%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 270px 140px;
+}
+
+#center {
+    width: 26%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 60px;
+}
+
+#left h1 {
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+#left h1 span {
+    color: red;
+    font-weight: 450;
+}
+
+#left p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 70%;
+    line-height: 24px;
+}
+#left button {
+    background-color: red;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-weight: 700;
+}
+
+#heart {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 195px;
+}
+
+#left button i {
+    margin-right: 6px;
+    display: inline;
+}
+
+#center-bg {
+    background-color: blue;
+    height: 90%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6CgD7svUAukBzcIyGwH9mOtgq88l0kpC5HAzJFiIRy8MSFaWl-FuiLN8IjDm0BCf5twY&usqp=CAU); */
+    /* background-image: url(https://storage.googleapis.com/pod_public/750/127034.jpg); */
+    /* background-image: url(https://cdnb.artstation.com/p/assets/images/images/039/240/611/large/travis-kordela-tsflb-screen1-bg-202180snight4b.jpg?1625341606); */
+    background-size: 95%;
+    background-position: 30% 71%;
+    filter: blur(3px);
+}
+
+#content>img {
+    height: 35%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%,0);
+    transition: transform 1s ease-in-out;
+     /* Adjust the margin between images */
+}
+
+.image2 {
+    margin-top: 200px;
+    object-fit: contain;
+}
+
+#right-elems {
+    /* background-color: red; */
+    width: 350px;
+}
+#elem1 {
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    opacity: 0.6;
+    /* background-color: blue; */
+    border-bottom: 1px solid #fff;
+}
+
+#elem1 h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#elem1 i {
+    font-size: 24px;
+}
+
+#elem2 h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+#elem2 p {
+    font-size: 12px;
+    width: 80%;
+}
+
+#main section {
+    color: #000;
+    line-height: 25px;
+}
